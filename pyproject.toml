@@ -1,0 +1,22 @@
+[project]
+name = "odoo-practice"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "pradivliany",email = "yaroslavpradyvlianyi@gmail.com"}
+]
+readme = "README.md"
+requires-python = "^3.12"
+dependencies = [
+    "requests (>=2.34.2,<3.0.0)",
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.group.dev.dependencies]
+isort = "^8.0.1"
+black = "^26.5.1"
+
